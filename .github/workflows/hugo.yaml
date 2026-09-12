@@ -61,7 +61,7 @@ jobs:
           hugo \
             --gc \
             --minify \
-            --theme hugo-book \
+            --theme black-and-light \
             --baseURL "${{ steps.pages.outputs.base_url }}/"          
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
