@@ -1,0 +1,23 @@
+baseURL = 'https://research.dkhatnyuk.ca'
+languageCode = 'en-us'
+title = "Denis Khatnyuk's Research Page"
+pygmentsstyle       = "bw"
+pygmentscodefences  = true
+
+[params]
+  sitename = "Denis Khatnyuk"
+  disableWebFonts = false
+
+[[menu.main]]
+	name = "About"
+	pageRef = "about.md"
+	weight = 1
+[[menu.main]]
+	name = "Research"
+	pageRef = "/"
+	weight = 2
+[[menu.main]]
+	name = "CV"
+	pageRef = "cv.md"
+	weight = 3
+	
