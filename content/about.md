@@ -1,8 +1,3 @@
----
-linktitle: About
-title: About
----
-
 # About
 
 <!-- {{< figure src="/cropped_denis.jpg" alt="Picture of Denis with a goofy smily" width="150">}} -->

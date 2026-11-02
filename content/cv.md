@@ -1,8 +1,3 @@
----
-linktitle: CV
-title: CV
----
-
 # CV
 The following is short summary of my career. For a more detailed CV, email me at: \
 d.khatnyuk **[at]** mail **[dot]** utoronto **[dot]** ca

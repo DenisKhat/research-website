@@ -1,8 +1,3 @@
----
-linktitle: Contact
-title: Contact
----
-
 # Contact
 
 Send me an email:
