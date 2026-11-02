@@ -1,4 +1,30 @@
 <style>
+
+    @font-face {
+      font-family: 'Libron';
+      src: url('{{ "Libron-Regular.ttf" | relURL }}') format('truetype'),
+      font-weight: 400;
+      font-style: normal;
+      font-display: swap;
+    }
+    
+    
+     @font-face {
+      font-family: 'Libron Bold';
+      src: url('{{ "Libron-Bold.ttf" | relURL }}') format('truetype'),
+      font-weight: 700;
+      font-style: normal;
+      font-display: swap;
+    }
+    
+    @font-face {
+      font-family: 'Libron';
+      src: url('{{ "Libron-Italic.ttf" | relURL }}') format('truetype'),
+      font-weight: 400;
+      font-style: italic;
+      font-display: swap;
+    }
+
     @font-face {
       font-family: 'Jost';
       src: url('{{ "jost.ttf" | relURL }}') format('truetype-variations'),
@@ -56,7 +82,7 @@
   }
 
   body {
-    font-family:'Computer Modern', serif;
+    font-family:'Libron', serif;
     font-size:17px;
     line-height:160%;
     color:#1d1313;
@@ -82,12 +108,12 @@
   .right-justify { float:right; }
 
   pre, code {
-    font: 12px "JetBrains Mono", monospace;
+    font: 15px "JetBrains Mono", monospace;
     background-color: #f7f7f7;
   }
 
   code {
-    font-size: 12px;
+    font-size: 15px;
     padding: 4px;
   }
 
@@ -131,24 +157,24 @@
     font-style:italic;
   }
 
-  .heading,.sans,html .gist .gist-file .gist-meta {
-    font-family:"Jost",sans-serif;
+  .heading,.sans,html .gist .gist-file .gist-meta h3{
+    font-family:"Libron",sans-serif;
   }
 
-  .mono,pre,code,tt,p code,li code {
+  .mono,pre,,tt,p code,li code {
     font-family:"JetBrains mono",monospace;
   }
 
   .serif{
-    font-family:"Computer Modern",serif;
+    font-family:"Libron",serif;
   }
   
-  h1,h2,h3 {
-    font-family:"Jost", sans-serif;
+  h1 h2{
+    font-family:"Libron Bold", sans-serif;
   }
 
   strong {
-    font-weight:600;
+    font-weight:700;
   }
 
   q:before {
@@ -164,7 +190,7 @@
   }
 
   blockquote {
-    font-family:"Jost",serif;
+    font-family:"Libron",serif;
     text-align:center;
     padding:50px;
   }
@@ -175,7 +201,7 @@
   }
 
   blockquote:before,blockquote:after {
-    font-family:"Jost",serif;
+    font-family:"Libron",serif;
     content:'\201C';
     font-size:35px;
     color:#403c3b;
@@ -193,20 +219,16 @@
   }
 
   h1 {
-    font-size:35px;
+    font-size:30px;
   }
 
   h2 {
-    font-size:28px;
+    font-size:25px;
   }
 
   h3 {
     font-size:22px;
     margin-top:18px;
-  }
-
-  h1 a,h2 a,h3 a {
-    text-decoration:none;
   }
 
   h1,h2 {
@@ -298,7 +320,7 @@
   #nav {
     text-align:center;
     position:static;
-    margin-top:60px;
+    margin-top:10px;
   }
 
   #nav ul {
@@ -332,7 +354,7 @@
   }
 
   #not-found a {
-    font-family:"Computer Modern",serif;
+    font-family:"Libron",serif;
     font-size: 200px;
     text-decoration: none;
     display: inline-block;
@@ -361,7 +383,7 @@
     }
 
     #content h1 {
-      font-size:25px;
+      font-size:30px;
     }
 
     #content h2 {
@@ -380,7 +402,7 @@
     }
 
     #nav h1 a {
-      font-size:22px;
+      font-size:30px;
     }
 
     #nav li {
