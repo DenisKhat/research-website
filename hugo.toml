@@ -1,4 +1,4 @@
-baseURL = 'https://research.dkhatnyuk.ca'
+baseURL = 'https://d.khatnyuk.com'
 languageCode = 'en-us'
 title = "Denis Khatnyuk's Research Page"
 pygmentsstyle       = "bw"
@@ -13,11 +13,15 @@ pygmentscodefences  = true
 	pageRef = "about.md"
 	weight = 1
 [[menu.main]]
-	name = "Research"
+	name = "Activity"
 	pageRef = "/"
 	weight = 2
 [[menu.main]]
 	name = "CV"
 	pageRef = "cv.md"
 	weight = 3
+[[menu.main]]
+	name = "Contact"
+	pageRef = "contact.md"
+	weight = 4
 	
